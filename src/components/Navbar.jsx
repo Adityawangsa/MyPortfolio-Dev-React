@@ -32,7 +32,7 @@ export default function Navbar() {
       {/* Bagian menu */}
       <div className="nav-menu">
         <ul
-          className={`flex space-x-4 md:space-x-6 lg:space-x-10 fixed md:static left-1/2 transition-all duration-150 ease-in-out transform -translate-x-1/2 md:translate-x-0 mt-4 py-4 px-6 rounded-full md:py-0 bg-white/30 md:bg-transparent backdrop-blur-md md:top-0 md:opacity-100
+          className={`flex space-x-4 md:space-x-6 lg:space-x-10 fixed md:static left-1/2 transition-all duration-150 ease-in-out transform -translate-x-1/2 md:translate-x-0 mt-4 py-4 px-6 rounded-full md:py-0 bg-white/30 md:bg-transparent backdrop-blur-xl md:top-0 md:opacity-100
                 ${active ? "top-0 opacity-100" : "-top-20 opacity-0"}`}
         >
           <li>
