@@ -185,13 +185,14 @@ export default function App() {
           Jika Anda memiliki pertanyaan, jangan ragu untuk menghubungi saya!
         </p>
         <form
-          action=""
+          action="https://formsubmit.co/adityawangsaa@gmail.com"
+          method="POST"
           className="bg-zinc-800 p-10 w-fit mx-auto rounded-md"
           autoCapitalize="off"
         >
           <div className="flex flex-col gap-6">
             {/* Input name */}
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2"> 
               <label className="font-semibold">Nama Lengkap</label>
               <input
                 type="text"
