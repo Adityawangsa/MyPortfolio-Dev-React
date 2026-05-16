@@ -59,7 +59,7 @@ export default function Navbar() {
               className="relative md:px-3 md:py-1 text-base md:text-lg font-medium
                         after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full"
             >
-              Projek
+              Proyek
             </a>
           </li>
           <li>
