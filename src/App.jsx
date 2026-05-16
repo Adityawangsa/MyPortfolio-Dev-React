@@ -187,24 +187,24 @@ export default function App() {
         <form
           action="https://formsubmit.co/adityawangsaa@gmail.com"
           method="POST"
-          className="bg-zinc-800 p-10 w-fit mx-auto rounded-md"
+          className="bg-zinc-800 p-8 sm:p-10 w-full sm:w-fit mx-auto rounded-md mt-10"
           autoCapitalize="off"
         >
           <div className="flex flex-col gap-6">
             {/* Input name */}
-            <div className="flex flex-col gap-2"> 
-              <label className="font-semibold">Nama Lengkap</label>
+            <div className="flex flex-col gap-2">
+              <label className="text-base font-semibold">Nama Lengkap</label>
               <input
                 type="text"
                 name="Nama"
-                placeholder="Masukkan Nama Lengkap..."
-                className="border border-zinc-500 px-4 py-2 rounded-md bg-zinc-700 outline-none focus:outline-violet-500 focus:ring-1 focus:ring-violet-500 focus:border-violet-500 transition-all"
+                placeholder="Masukkan Nama..."
+                className="text-sm md:text-base border border-zinc-500 px-4 py-2 rounded-md bg-zinc-700 outline-none focus:outline-violet-500 focus:ring-1 focus:ring-violet-500 focus:border-violet-500 transition-all"
                 required
               ></input>
             </div>
             {/* Input email */}
             <div className="flex flex-col gap-2">
-              <label className="font-semibold">Masukkan Email</label>
+              <label className="text-base font-semibold">Masukkan Email</label>
               <input
                 type="email"
                 name="Email"
@@ -215,7 +215,7 @@ export default function App() {
             </div>
             {/* Input message */}
             <div className="flex flex-col gap-2">
-              <label htmlFor="" className="font-semibold">
+              <label htmlFor="" className="text-base font-semibold">
                 Masukkan Pesan
               </label>
               <textarea
@@ -224,7 +224,7 @@ export default function App() {
                 cols="45"
                 rows="7"
                 placeholder="Pesan..."
-                className="border border-zinc-500 px-4 py-2 rounded-md bg-zinc-700 outline-none focus:outline-violet-500 focus:ring-1 focus:ring-violet-500 focus:border-violet-500 transition-all"
+                className="text-sm md:text-base border border-zinc-500 px-4 py-2 rounded-md bg-zinc-700 outline-none focus:outline-violet-500 focus:ring-1 focus:ring-violet-500 focus:border-violet-500 transition-all"
                 required
               ></textarea>
             </div>
