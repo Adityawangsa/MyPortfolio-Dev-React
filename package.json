@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
+    "animate.css": "^4.1.1",
+    "flowbite": "^4.0.2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "remixicon": "^4.9.1",
