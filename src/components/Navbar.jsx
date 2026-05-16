@@ -22,7 +22,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="navbar flex justify-between items-center py-8">
+    <nav className="navbar flex justify-between items-center py-8">
       {/* Bagian logo */}
       <div className="logo">
         <h1 className="text-2xl font-bold bg-white md:bg-transparent text-black md:text-white p-1 md:p-0">
@@ -73,6 +73,6 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }
