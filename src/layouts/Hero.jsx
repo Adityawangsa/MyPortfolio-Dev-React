@@ -5,7 +5,10 @@ export default function Hero() {
   return (
     <section>
       {/* Hero section */}
-      <div className="hero grid grid-cols-1 items-center md:grid-cols-2 gap-10 pt-10" id="beranda">
+      <div
+        className="hero grid grid-cols-1 items-center md:grid-cols-2 gap-10 pt-10"
+        id="beranda"
+      >
         {/* Content text */}
         <div className="animate__animated animate__fadeInUp animate__delay-2s">
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
@@ -28,18 +31,20 @@ export default function Hero() {
           </p>
           {/* Ikon gambar */}
           <div className="flex items-center space-x-2 sm:space-x-4">
-            <div className="flex items-center space-x-2 bg-violet-700 py-4 px-6 rounded-2xl hover:bg-violet-600 transition">
-              <a href="#" className="text-sm md:text-base">
-                Download CV
-              </a>
+            <a
+              href="#"
+              className="text-sm md:text-base flex items-center gap-2 bg-violet-700 py-4 px-6 rounded-2xl hover:bg-violet-600 transition"
+            >
+              Download CV
               <i className="ri-download-line ri-lg"></i>
-            </div>
-            <div className="flex items-center space-x-2 bg-zinc-700 py-4 px-6 rounded-2xl hover:bg-zinc-600 transition">
-              <a href="#proyek" className="text-sm md:text-base">
-                Lihat Proyek
-              </a>
+            </a>
+            <a
+              href="#proyek"
+              className="text-sm md:text-base flex items-center gap-2 bg-zinc-700 py-4 px-6 rounded-2xl hover:bg-zinc-600 transition"
+            >
+              Lihat Proyek
               <i className="ri-arrow-down-line ri-lg"></i>
-            </div>
+            </a>
           </div>
         </div>
         {/* Content image */}
