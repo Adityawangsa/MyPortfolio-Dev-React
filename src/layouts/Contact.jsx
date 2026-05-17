@@ -20,7 +20,7 @@ export default function Contact() {
           Jika Anda memiliki pertanyaan, jangan ragu untuk menghubungi saya!
         </p>
         <form
-          action="https://formsubmit.co/adityawangsaa@gmail.com"
+          action="https://formspree.io/f/mdajndla"
           method="POST"
           className="bg-zinc-800 p-8 sm:p-10 w-full sm:w-fit mx-auto rounded-md mt-10"
           autoCapitalize="off"
